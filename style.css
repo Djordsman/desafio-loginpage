@@ -3,19 +3,85 @@ body {
 }
 
 #container{
-    background-color: rgb(241, 236, 236);
+    background-color: rgb(255, 255, 255);
     width: 320px;
-    margin: 200px auto;
+    margin: 140px auto;
+    padding: 20px;
     height: 400px;
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     line-height: 80px;
     color: #000000;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+
+.message{
+    margin-top: -20px;
+}
+
+input[type="text"]{
+    width: 300px;
+    background-color: rgba(215, 219, 219, 0.932);
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 0px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    outline: 0px;
+    border: 1px;
+}
+
+input[type="password"]{
+    width: 300px;
+    background-color: rgba(215, 219, 219, 0.932);
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 13px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    outline: 0px;
+    border: 1px;
+}
+
+input[type="password"]::placeholder, input[type="text"]::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+input[type="password"]:focus, input[type="text"]:focus{
+    outline: 0;
+    color: rgb(12, 7, 7);
+    border: 2px solid #000000cc;
+
+}
+
+form{
+    text-align: center;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-button{
+    width: 300px;
+    height: 45px;
+    margin: -50px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #000000;
+    border: 0px;
+    border-radius: 3px;
 }
 
 .message-option{
+    color: rgb(73, 73, 75);
     font-size: 15px;
-    font-weight: inherit;
+    margin: 0px 0 0 50px;
+}
+
+.btn-twitter{
+    margin: 20px 0 0 50px;
 }
