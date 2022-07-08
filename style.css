@@ -11,16 +11,16 @@ body {
     font-size: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    line-height: 80px;
     color: #000000;
     border-radius: 10px;
 }
 
 .message{
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 input[type="text"]{
+    margin-top: 50000000px;
     width: 300px;
     background-color: rgba(215, 219, 219, 0.932);
     height: 40px;
@@ -37,7 +37,7 @@ input[type="password"]{
     background-color: rgba(215, 219, 219, 0.932);
     height: 40px;
     border-radius: 5px;
-    margin-top: 13px;
+    margin-top: 5px;
     font-size: 13px;
     color: rgb(0, 0, 0);
     outline: 0px;
@@ -56,8 +56,7 @@ input[type="password"]:focus, input[type="text"]:focus{
 }
 
 form{
-    text-align: center;
-    padding: 0px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,21 +66,64 @@ form{
 .cta-button{
     width: 300px;
     height: 45px;
-    margin: -50px 10px;
+    margin: 10px;
     font-size: 15px;
     font-weight: bold;
     color: white;
     background-color: #000000;
     border: 0px;
     border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 .message-option{
     color: rgb(73, 73, 75);
     font-size: 15px;
-    margin: 0px 0 0 50px;
+    margin: -15px;
+    margin-left: 50px; 
+    margin-top: 15px;
+}
+
+button{
+    margin-top: -90px;
+    height: 30px;
+    text-align: left;
+    font-size: 17px;
+    margin-left: 10px;
+    width: 300px;
+    border-radius: 3px;
+    border: 0px;
 }
 
 .btn-twitter{
-    margin: 20px 0 0 50px;
+    margin-top: 30px;
+    height: 30px;
+    text-align: left;
+    font-size: 17px;
+    margin-left: 10px;
+    width: 300px;
+    background-color: rgb(60, 188, 248);
+    color: #ffffff;
+    border-radius: 3px;
+    border: 0px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.btn-facebook{
+    margin-top: 10px;
+    background-color:rgb(14, 10, 247);
+    color: #ffffff;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.btn-instagram{
+    margin-top: 10px;
+    background: linear-gradient(90deg, rgb(150, 2, 150)0%, rgb(236, 6, 6));
+    color: #ffffff;
+    padding-left: 10px;
+    cursor: pointer;
 }
