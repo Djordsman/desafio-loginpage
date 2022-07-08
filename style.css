@@ -74,7 +74,6 @@ form{
     border: 0px;
     border-radius: 3px;
     text-align: center;
-    cursor: pointer;
     margin-top: 20px;
 }
 
@@ -95,35 +94,24 @@ button{
     width: 300px;
     border-radius: 3px;
     border: 0px;
+    color: #ffffff;
+    padding-left: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 20px;
 }
 
 .btn-twitter{
     margin-top: 30px;
-    height: 30px;
-    text-align: left;
-    font-size: 17px;
-    margin-left: 10px;
-    width: 300px;
-    background-color: rgb(60, 188, 248);
-    color: #ffffff;
-    border-radius: 3px;
-    border: 0px;
-    padding-left: 10px;
-    cursor: pointer;
+    background-color: rgb(60, 188, 248); 
 }
 
 .btn-facebook{
     margin-top: 10px;
     background-color:rgb(14, 10, 247);
-    color: #ffffff;
-    padding-left: 10px;
-    cursor: pointer;
 }
 
 .btn-instagram{
     margin-top: 10px;
     background: linear-gradient(90deg, rgb(150, 2, 150)0%, rgb(236, 6, 6));
-    color: #ffffff;
-    padding-left: 10px;
-    cursor: pointer;
 }
