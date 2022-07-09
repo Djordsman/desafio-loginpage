@@ -75,6 +75,13 @@ form{
     margin-top: 20px;
 }
 
+.cta-button:hover{
+    color: rgb(73, 250, 250);
+    background: rgb(10, 17, 10);
+    box-shadow: 0 0 5px rgb(73, 250, 250), 0 0 40px rgb(73, 250, 250), 0 0 40px ;
+    transition-delay: 0.1s;
+}
+
 .message-option{
     color: rgb(117, 117, 122);
     font-size: 15px;
@@ -124,12 +131,36 @@ button{
     background-color: rgb(60, 188, 248); 
 }
 
+.btn-twitter:hover{
+    color: #ffffff;
+    background: rgb(73, 179, 250);
+    box-shadow: 0 0 5px rgb(73, 179, 250), 0 0 40px rgb(73, 179, 250), 0 0 40px ;
+    transition-delay: 0.1s;
+    font-weight: bold;
+}
+
 .btn-facebook{
     margin-top: 10px;
     background-color:rgb(14, 10, 247);
 }
 
+.btn-facebook:hover{
+    color: #ffffff;
+    background: rgb(14, 10, 247);
+    box-shadow: 0 0 5px rgb(14, 10, 247), 0 0 40px rgb(14, 10, 247), 0 0 40px;
+    transition-delay: 0.1s;
+    font-weight: bold;
+}
+
 .btn-instagram{
     margin-top: 10px;
     background: linear-gradient(90deg, rgb(150, 2, 150)0%, rgb(236, 6, 6));
+}
+
+.btn-instagram:hover{
+    color: #ffffff;
+    background: linear-gradient(90deg, rgb(150, 2, 150)0%, rgb(236, 6, 6));
+    box-shadow: 0 0 5px rgb(150, 2, 150), 0 0 40px rgb(150, 2, 150), 0 0 40px;
+    transition-delay: 0.1s;
+    font-weight: bold;
 }
