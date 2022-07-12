@@ -71,7 +71,7 @@ form{
     color: white;
     background-color: #000000;
     border-radius: 3px;
-    text-align: center;
+    padding-left: 117px;
     margin-top: 20px;
 }
 
@@ -120,11 +120,12 @@ button{
     border-radius: 3px;
     border: 0px;
     color: #ffffff;
-    padding-left: 10px;
+    padding-left: 50px;
     border-radius: 3px;
     cursor: pointer;
     border: 20px;
 }
+
 
 .btn-twitter{
     margin-top: 30px;
@@ -153,6 +154,13 @@ button{
 .btn-instagram{
     margin-top: 10px;
     background: linear-gradient(90deg, rgb(150, 2, 150)0%, rgb(236, 6, 6));
+}
+
+.logo-insta{
+    background-image: url(./img/2-instagram-logo-on-black-png-removebg-preview.png);
+    background-size: 40px;
+    padding-left: 60px;
+    margin-left: -90px;
 }
 
 .btn-instagram:hover{
