@@ -87,7 +87,7 @@ form{
     font-size: 15px;
     margin: -15px;
     margin-left: 50px; 
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .div-container{
@@ -120,15 +120,17 @@ button{
     border-radius: 3px;
     border: 0px;
     color: #ffffff;
-    padding-left: 50px;
+    padding-left: 42px;
     border-radius: 3px;
     cursor: pointer;
     border: 20px;
+    display:flex;
+    align-items: center;
 }
 
 
 .btn-twitter{
-    margin-top: 30px;
+    margin-top: 40px;
     background-color: rgb(60, 188, 248); 
 }
 
@@ -140,7 +142,7 @@ button{
 }
 
 .btn-facebook{
-    margin-top: 10px;
+    margin-top: 20px;
     background-color:rgb(14, 10, 247);
 }
 
@@ -152,15 +154,41 @@ button{
 }
 
 .btn-instagram{
-    margin-top: 10px;
+    margin-top: 12px;
+    padding-left: -15px;
     background: linear-gradient(90deg, rgb(150, 2, 150)0%, rgb(236, 6, 6));
 }
 
-.logo-insta{
-    background-image: url(./img/2-instagram-logo-on-black-png-removebg-preview.png);
-    background-size: 40px;
-    padding-left: 60px;
-    margin-left: -90px;
+.logo-insta {
+    height: 35px;
+    padding-left: 15px;
+    margin-top: -37px;
+    display: flex;
+}
+
+.trav {
+    font-size: 25px;
+    margin-bottom: 5px;
+    padding-left:-5px;
+}
+
+.texto {
+    padding-left: 6px;
+}
+
+.logo-face {
+    height: 35px;
+    padding-left: 12px;
+    margin-top: -37px;
+    display: flex;
+}
+
+.logo-twitter {
+    height: 23px;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-top: -37px;
+    display: flex;
 }
 
 .btn-instagram:hover{
