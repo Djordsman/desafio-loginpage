@@ -143,13 +143,13 @@ button{
 
 .btn-facebook{
     margin-top: 20px;
-    background-color:rgb(14, 10, 247);
+    background-color:rgb(8, 4, 192);
 }
 
 .btn-facebook:hover{
     color: #ffffff;
-    background: rgb(14, 10, 247);
-    box-shadow: 0 0 5px rgb(14, 10, 247), 0 0 40px rgb(14, 10, 247), 0 0 40px;
+    background: rgb(8, 4, 192);
+    box-shadow: 0 0 5px rgb(8, 4, 192), 0 0 40px rgb(8, 4, 192), 0 0 40px;
     transition-delay: 0.1s;
 }
 
@@ -159,11 +159,14 @@ button{
     background: linear-gradient(90deg, rgb(150, 2, 150)0%, rgb(236, 6, 6));
 }
 
-.logo-insta {
+.logo-insta{
     height: 35px;
     padding-left: 15px;
     margin-top: -37px;
     display: flex;
+    cursor: pointer;
+    box-shadow: rgb(150, 2, 150);
+    transition-delay: 0.1s;
 }
 
 .trav {
@@ -176,11 +179,16 @@ button{
     padding-left: 6px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logo-face {
     height: 35px;
     padding-left: 12px;
     margin-top: -37px;
     display: flex;
+    cursor: pointer;
 }
 
 .logo-twitter {
@@ -189,6 +197,7 @@ button{
     padding-left: 20px;
     margin-top: -37px;
     display: flex;
+    cursor: pointer;
 }
 
 .btn-instagram:hover{
